@@ -4,6 +4,7 @@ body {
 H1 { 
   font-size: 64px;
   font-weight: bold;
+  font-family: gilroy, Verdana, Geneva, Tahoma, sans-serif;
 }
 H2 { font-weight: bold }
 H3 { font-weight: bold }
@@ -12,6 +13,7 @@ H5 { font-weight: bold }
 H6 { font-weight: bold }
 p {
   font-size: 20px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero-image {
@@ -25,14 +27,11 @@ p {
 .hero-text {
   position: relative;
   color: #473729;
-  text-align:right;
+  text-align:center;
 }
 .hero-text h1 {
   font-size:40px;
-  margin-right:15%;
-}
-.hero-text h1 .italic {
-  font-style: italic;
+
 }
 .hero-text button {
   border-radius: 5px;
@@ -41,11 +40,12 @@ p {
   background-color: #3B7A62;
   text-align: center;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
   bottom: 50px;
   max-width: 200px;
   margin-top: 25px;
+  position:relative;
 }
 .hero-text button:hover {
   background-color: #56977E;
@@ -56,8 +56,6 @@ p {
   margin-bottom: 20px;
   margin-right: 50px;
 }
-
-
 .flexContainer {
   display: flex;
   flex-direction: row;
