@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle navlinks" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             HOW WE HELP
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -38,7 +38,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle navlinks" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             GET INVOLVED
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -52,13 +52,13 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">RESOURCE CENTER</a>
+          <a class="nav-link navlinks" href="#">RESOURCE CENTER</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">NEWS</a>
+          <a class="nav-link navlinks" href="#">NEWS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
+          <a class="nav-link navlinks" href="#">CONTACT</a>
         </li>
       </ul>
 <!--SEARCH-->
@@ -76,7 +76,7 @@
 <div class="hero-image">
   <div class="hero-text">
   <h1>Your donation, no matter the size,<br> will grow and create a meaningful change<br>in our food systems.</span></h1><br><br>
-  <button>DONATE FOOD</button> <button>VOLUNTEER</button> <button>SUPPORT US</button>
+  <button class="button">DONATE FOOD</button> <button class="button">VOLUNTEER</button> <button class="button">SUPPORT US</button>
   </div>
   </div>
 <!--/HERO-->
@@ -88,6 +88,7 @@
           <h3>The Leftovers Foundation is one of Canada’s largest,<br>tech-enabled food rescue charities.<br><br>We reshape how our communities fight poverty, <br>reduce food waste, and save our environment.</h3>
       </figure>
 <!--/WELCOME-->
+<br><br><br>
 <!--GET INVOLVED-->
 <section class="mySkills">
   <figure class="text-center">
@@ -95,28 +96,24 @@
       <p><h1>Get Involved</h1></p>
     </blockquote>
   </figure>
-      <div class="flexContainer">
-        <div class="skillsCard">
+      <div class="flexContainer card-deck">
+        <div class="skillsCard card">
           <img src="images/Screen Shot 2022-06-15 at 8.47 1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Donate Backyard Harvest</h5>
-            <p class="card-text">Do you have a fruit tree with more fruit than you can deal with? One of our volunteers would be happy to pick the fruits and redistribute it to those in need.</p>
-            <a href="#" class="btn btn-primary">LEARN MORE</a>
-          </div>
+            <h3>Donate Backyard Harvest</h3>
+            <p>Do you have a fruit tree with more fruit than you can deal with? One of our volunteers would be happy to pick the fruits and redistribute it to those in need.</p>
+            <button class="button">LEARN MORE</button>
         </div>
-        <div class="skillsCard">
+        <div class="skillsCard card">
           <img src="images/Kimberley_s_tomatoes-768x576.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Donate As A Business</h5>
-            <p class="card-text">Our corporate partners are leaders in community impact. Get in touch to learn more about partnerships, sponsorships, and fundraising events. Together, we make life better for our communities.</p>
-            <a href="#" class="btn btn-primary">LEARN MORE</a>
-          </div>
+            <h3>Donate As A Business</h3>
+            <p>Our corporate partners are leaders in community impact. Get in touch to learn more about partnerships, sponsorships, and fundraising events.</p>
+            <button class="button">LEARN MORE</button>
         </div>
           <div class="skillsCard card">
             <img src="images/pexels-rodnae-productions-6646884 1.png" class="card-img-top" alt="...">
               <h3>Volunteer</h3>
-              <p>Use our app to rescue, harvest, and deliver food to those in need. Volunteering with the Leftovers Foundation is a fulfilling, rewarding experience that helps reduce food waste and protect our environment.</p>
-              <a href="#" class="btn btn-primary">LEARN MORE</a>
+              <p>Use our app to rescue, harvest, and deliver food to those in need. Volunteering with the Leftovers Foundation is a rewarding experience that helps reduce food waste.</p>
+              <button class="button">LEARN MORE</button>
           </div>
       </div>
   </section>  
@@ -185,7 +182,7 @@
           <div class="d-flex w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+            <button class="button">SUBSCRIBE</button>
           </div>
         </form>
       </div>
