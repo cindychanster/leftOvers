@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'gilroy', Arial, sans-serif;
   }
 H1 { 
   font-size: 64px;
@@ -75,7 +76,7 @@ p {
   vertical-align: top;
 }
 .mySkills {
-  text-align: left;
+  text-align: center;
   width: 100%;
   vertical-align: top;
 }
