@@ -9,10 +9,14 @@ H1 {
   color: #473729;
   font-style:normal;
     }
-H2 { font-weight: bold }
-H3 { font-weight: bold }
-H4 { font-weight: bold }
-H5 { font-weight: bold }
+H2 { font-weight: bold;
+  font-size: 42px }
+H3 { font-weight: bold;
+  font-size: 36px }
+H4 { font-weight: bold;
+  font-size: 32px }
+H5 { font-weight: bold;
+  font-size: 24px }
 H6 { 
   font-weight:lighter;
   color: #473729;
@@ -72,6 +76,12 @@ p {
   padding: 25px;
   width: 500px;
   vertical-align: top;
+}
+.mid {
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    border: 1px solid red;
 }
 .mySkills {
   text-align: center;
