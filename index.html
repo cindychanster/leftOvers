@@ -76,7 +76,9 @@
 <div class="hero-image">
   <div class="hero-text">
   <h1>Your donation, no matter the size,<br> will grow and create a meaningful change<br>in our food systems.</span></h1><br><br>
-  <button class="button">DONATE FOOD</button> <button class="button">VOLUNTEER</button> <button class="button">SUPPORT US</button>
+  <button class="button">DONATE FOOD</button><div class="space">
+  </div><button class="button">VOLUNTEER</button><div class="space">
+  </div><button class="button">SUPPORT US</button>
   </div>
   </div>
 <!--/HERO-->
@@ -90,7 +92,7 @@
 <!--/WELCOME-->
 <br><br><br>
 <!--GET INVOLVED-->
-<section class="mySkills">
+<section class="mySkills flexContainer">
   <figure class="text-center">
     <blockquote class="blockquote">
       <p><h1>Get Involved</h1></p>
@@ -120,7 +122,7 @@
 <!--/GET INVOLVED-->
 <br><br><br>
 <!--HOW WE HELP--> 
-<section class="mySkills">
+<section class="mySkills flexContainer">
   <figure class="text-center">
     <blockquote class="blockquote">
       <p><h1>How We Help</h1></p>
@@ -148,10 +150,50 @@
 <!--/HOW WE HELP-->
 <br><br><br>
 <!--FOOTER NAV-->
+<footer class="text-center" style="background-color: #4DB36F;">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Subscribe to our newsletter</strong><Br>Monthly digest of whats new and exciting from us.
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example27" class="form-control" placeholder="Your email@email.com" aria-label="Search"/>
+                        </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button class="button">SUBSCRIBE</button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+<section class="mySkills" style="background-color: #FFFFFF;">
 <div class="container">
   <footer class="py-5">
     <div class="row">
-      <div class="col-2">
+      <div class="col-4">
         <h5>How we help</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Leftovers</a></li>
@@ -160,7 +202,7 @@
         </ul>
       </div>
 
-      <div class="col-2">
+      <div class="col-4">
         <h5>Get Involved</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Donate Food</a></li>
@@ -169,35 +211,42 @@
         </ul>
       </div>
 
-      <div class="col-2">
+      <div class="col-4 flex-column">
         <h5>Resource Center</h5>
         <h5>News</h5>
         <h5>Contact</h5>
       </div>
+    </div>
+  <!-- Copyright -->
+  <div class="text-center p-3">
+<!-- Section: Social media -->
+<section class="mb-4">
+  <!-- Instagram -->
+  <img src="images/Instagram.png">
 
-      <div class="col-4 offset-1">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of whats new and exciting from us.</p>
-          <div class="d-flex w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="button">SUBSCRIBE</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
-      <p>© 2022 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
-    </div>
-  </footer>
-<!--/FOOTER NAV-->
+  <!-- Linkedin -->
+  <img src="images/LinkedIn.png">
+
+  <!-- Twitter -->
+  <img src="images/twitter.png">
+
+  <!-- Facebook -->
+  <img src="images/facebook.png">
+
+  <!-- YouTube -->
+  <img src="images/youtube.png">
+
+</section>
+<!-- Section: Social media -->
+    Charitable # 782983522 RR0001<br>
+    © 2022 The Leftovers Foundation All rights reserved.
+  </div>
+  <!-- Copyright -->
+</footer>
 </div>
+</section>
+<!--/FOOTER NAV-->
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

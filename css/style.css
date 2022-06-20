@@ -101,3 +101,11 @@ p {
 .button:active {
   background-color: #3F6355;
 }
+.space {
+  width: 32px;
+  height: auto;
+  display: inline-block;
+}
+@media screen and (max-width: 600px) {
+
+}
