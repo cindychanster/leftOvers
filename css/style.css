@@ -3,9 +3,10 @@ body {
   }
 H1 { 
   font-size: 64px;
-  font-weight: bold;
-  font-family: gilroy, Verdana, Geneva, Tahoma, sans-serif;
-}
+  font-family: 'gilroy', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+    }
 H2 { font-weight: bold }
 H3 { font-weight: bold }
 H4 { font-weight: bold }
