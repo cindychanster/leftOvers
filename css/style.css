@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    font-family: 'gilroy', Arial, sans-serif;
+    font-family: Gilroy, Verdana, sans-serif;
   }
 H1 { 
   font-size: 64px;
-  font-family: 'gilroy', Arial, sans-serif;
-  font-weight:normal;
+  font-weight: bold;
   font-style:normal;
     }
 H2 { font-weight: bold }
