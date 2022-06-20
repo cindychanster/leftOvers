@@ -2,6 +2,7 @@ body {
     margin: 0;
   }
 H1 { 
+  font-size: 64px;
   font-weight: bold;
 }
 H2 { font-weight: bold }
@@ -9,17 +10,21 @@ H3 { font-weight: bold }
 H4 { font-weight: bold }
 H5 { font-weight: bold }
 H6 { font-weight: bold }
+p {
+  font-size: 20px;
+}
 
 .hero-image {
-  background-image: url("https://cindychanster.github.io/leftOvers/images/vegtableHero.jpg");
+  background-image: url("https://cindychanster.github.io/leftOvers/images/vegetableHero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 595px;
   padding: 50px;
 }
 .hero-text {
   position: relative;
-  color: #FFFFFF;
+  color: #473729;
   text-align:right;
 }
 .hero-text h1 {
@@ -45,4 +50,33 @@ H6 { font-weight: bold }
 .hero-text button:hover {
   background-color: #56977E;
   color: white;
+}
+.navbarLogo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  border: #000000;
+  border-width: 3px;
+}
+.skillsCard {
+  padding: 25px;
+  width: 500px;
+  vertical-align: top;
+}
+.mySkills {
+  text-align: left;
+  width: 100%;
+  vertical-align: top;
 }
