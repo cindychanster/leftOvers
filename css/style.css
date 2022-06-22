@@ -13,7 +13,8 @@ H2 { font-weight: bold;
   font-size: 42px }
 H3 { font-weight: bold;
   font-size: 36px }
-H4 { font-weight: bold;
+H4 { font-weight: normal;
+  font-family: openSans, Verdana, sans-serif;
   font-size: 32px }
 H5 { font-weight: bold;
   font-size: 24px }
@@ -76,12 +77,6 @@ p {
   padding: 25px;
   width: 500px;
   vertical-align: top;
-}
-.mid {
-    display: table-cell;
-    vertical-align: middle;
-    height: auto;
-    border: 1px solid red;
 }
 .mySkills {
   text-align: center;
